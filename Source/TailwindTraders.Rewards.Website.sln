@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindTraders.Rewards.Website", "Website\TailwindTraders.Rewards.Website.csproj", "{95C4F2BE-6813-4834-8F0F-4BE1113DFC4A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{09707C5E-5DD1-4C7B-A714-6CF3F3B8E8C0}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\deployment.yml = ..\.github\workflows\deployment.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

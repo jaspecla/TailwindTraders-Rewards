@@ -173,6 +173,8 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="Admin.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
     <None Include="Properties\PublishProfiles\ttrewards-dev - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\ttrewardsdevapp - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
